@@ -5,7 +5,7 @@ var http = require('http');
 http.createServer(function (req, res) {
   // this is the callback, or request handler for the httpServer
 
-  // respond to the browser, write some headers so the 
+  // respond to the browser, write some headers so the
   // browser knows what type of content we are sending
   res.writeHead(200, {'Content-Type': 'text/html'});
 
@@ -14,4 +14,4 @@ http.createServer(function (req, res) {
 
   // close the response
   res.end();
-}).listen(8080); // the server will listen on port 8080
+}).listen(process.env.PORT || 5000); // the server will listen on port 8080

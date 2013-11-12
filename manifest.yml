@@ -1,6 +1,6 @@
 ---
 applications:
-- name: node-test-app-2
+- name: node-test-app
   memory: 256M
   instances: 1
   host: node-test-app

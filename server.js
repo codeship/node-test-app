@@ -14,4 +14,4 @@ http.createServer(function (req, res) {
 
   // close the response
   res.end();
-}).listen(process.env.PORT || 5000); // the server will listen on port 8080
+}).listen(process.env.PORT || 8080); // the server will listen on port 8080

@@ -10,7 +10,7 @@ http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
 
   // write some content to the browser that your user will see
-  res.write('<h1>Hello Dotcloud</h1>');
+  res.write('Ship long and prosper!');
 
   // close the response
   res.end();
